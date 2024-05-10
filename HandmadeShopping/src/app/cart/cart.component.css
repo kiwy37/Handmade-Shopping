@@ -1,0 +1,84 @@
+.cart {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Satisfy', cursive;
+}
+
+.empty-cart .full-page-image {
+  width: 30%; /* adjust this value as needed */
+  height: auto;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.item-image {
+  width: 20%;
+}
+
+.item-image img {
+  width: 100%;
+  height: auto;
+}
+
+.item-details {
+  width: 70%;
+}
+
+.item-details h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.item-details p {
+  margin: 5px 0;
+}
+
+button {
+  background-color: rgb(156, 49, 147);
+  border-radius: 20;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'Satisfy', cursive;
+}
+
+button:hover {
+  background-color: rgb(191, 104, 220);
+  color: black;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 20px;
+}
+
+.empty-cart img {
+  width: 50%;
+  height: auto;
+}
+
+.finish-button {
+  display: block;
+  margin: 20px auto;
+} 
+
+.empty-cart h1 {
+  font-family: 'Satisfy', cursive;
+}

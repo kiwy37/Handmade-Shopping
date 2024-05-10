@@ -1,0 +1,156 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.cdnfonts.com/css/calligraphy');
+@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One);
+
+.welcome-text {
+  max-width: 700px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 1.8em; /* Increase the font size */
+  color: #333;
+  margin-left: 2%;
+  font-family: 'Satisfy', cursive; /* Change the font family */
+  line-height: 1.6; /* Increase the line height */
+}
+
+.more-info-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007BFF; /* Change the link color */
+  text-decoration: none;
+  font-size: 0.7 m; /* Increase the font size */
+  border: 1px solid #007BFF; /* Add a border */
+  padding: 10px 20px; /* Add some padding */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.more-info-link:hover {
+  background-color: #007BFF; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  border: none; 
+}
+
+.link span {
+  display: block;
+}
+
+h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('https://easylife.boutique/wp-content/uploads/collezione-gallery-easy-life-nuovi-arrivi.jpg');
+  background-position: center;
+    margin-top: 0%;
+  background-size: cover;
+  padding: 10px 0; 
+  display: flexbox;
+}
+
+body {
+  background-color: #f9f2e7; /* Change the background color to a light beige */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+}
+
+.cd__main h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  /* add borders to writing */
+  border: 2px solid black;
+  font-family: 'Satisfy', 'cursive';
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+  letter-spacing: 1.2px; /* Increase spacing between letters */
+  line-height: 1.2; /* Adjust line height for better readability */
+  margin-bottom: 40px; /* Add some space below the title */
+}
+
+.cd__main {
+  padding: 20px;
+  flex-direction: row;
+  background-color: #f9f2e7; /* Change the background color to a light beige */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background: linear-gradient(to right, #4e6f48, #8fdb9c); */
+}
+
+.accord {
+  width: 700px;
+  margin: auto;
+  height: 450px;
+  overflow: hidden;
+  border: black;
+  background-color: transparent;
+  transition: all 0.8s ease;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.accord ul li {
+  width: 150px;
+  display: block;
+  float: left;
+  position: relative;
+  height: 435px;
+  transition: all 0.5s ease, opacity 0.2s ease;
+  opacity: 1;
+}
+
+.accord ul li img {
+  width: 300px;
+  height: 500px; /* Increase the height as needed */
+}
+.title {
+  transition: all 0.5s ease-in;
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  display: block;
+  background-color: rgba(89, 89, 89, 0.4);
+}
+
+.title a {
+  font-size: 110%;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.accord:hover {
+  /* box-shadow: 6px 6px 10px 5px grey; */
+  transform: scale(1.1, 1.1);
+}
+
+.accord ul:hover li {
+  width: 100px;
+}
+
+.accord ul li:hover {
+  width: 300px;
+  opacity: 1;
+}   
+
+.image-caption{
+  padding-left: 20px;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}

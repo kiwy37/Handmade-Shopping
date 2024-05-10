@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Satisfy', cursive; /* Use the 'Satisfy' font */
+  width: 60%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.body {
+  background-color: #f9f2e7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 20px);
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  text-align: center;
+  height: 1,2em; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.card p {
+  text-align: center;
+  height: 1,2em; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.card button {
+  width: 100%;
+  color: white;
+  background-color: #EE82EE;
+  padding: 14px 20px;
+  margin: 14px 0;
+  border: none;
+  cursor: pointer;
+  font-family: 'Satisfy', cursive; /* Use the 'Satisfy' font */
+  border-radius: 20px;
+}

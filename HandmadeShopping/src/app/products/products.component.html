@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<table class="container">
+    <tr *ngFor="let product of products" class="card">
+        <td>
+            <img [src]="product.imagePath" (click)="viewProductDetails(product.imagePath)" alt="{{ product.name }}">
+            <h4>{{ product.productName }}</h4>
+            <p>Price: ${{ product.price }}</p>
+            <button class="w3-button w3-pale-red" (click)="addItemToCart(product.name, product.price, product.description, product.imagePath)">Add to cart</button>
+        </td>
+    </tr>
+</table>
